@@ -105,7 +105,6 @@ class SpaceEngineersMetrics(object):
                     "WorldName": json_data['data']['WorldName'],
                     "SimSpeed": float(json_data['data']['SimSpeed']),
                     "Players": int(json_data['data']['Players']),
-                    "Game": json_data['data']['Game'],
                     "Version": json_data['data']['Version'],
                     "UsedPCU": int(json_data['data']['UsedPCU']),
                     "ServerId": int(json_data['data']['ServerId'])
